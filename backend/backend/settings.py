@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-oj2reby)*bz5qt^4k#7b)*(!8@&exi#e$04g7kd3zbmg=1i%5_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['stockpilot-p8tv.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Vite default port
