@@ -1,0 +1,29 @@
+# Git
+.git
+.gitignore
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+backend/env/
+backend/venv/
+backend/.venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Django generated files
+backend/staticfiles/
+backend/media/
+
+# Editor / OS
+.vscode/
+.idea/
+*.log
