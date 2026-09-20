@@ -15,6 +15,10 @@ RUN npm ci
 # Copy the rest of the React application
 COPY frontend/ .
 
+# Make the Vite environment variable available during the build
+ARG VITE_API_URL
+ENV VITE_API_URL=$VITE_API_URL
+
 # Build React
 RUN npm run build
 
